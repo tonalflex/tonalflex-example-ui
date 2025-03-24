@@ -1,5 +1,5 @@
-# Vue 3 + TypeScript + Vite
+# Tonalflex Example UI
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This repo is meant to easily show how to utilize the micro-frontends exported by each Tonalflex plugin to `npm`, and how do dynamically load them into a larger UI project.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+The example also shows in `src/main.ts` how the MockBackend that ships with each micro-frontend can be utilized to quickly visualize a plugin UI in a larger setting, without having to implement the full `IAudioBackend` interface.
