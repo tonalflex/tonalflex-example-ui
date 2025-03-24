@@ -11,5 +11,3 @@ const backend: IAudioBackend = new MockBackend()
 app.provide('audio-backend', backend)
 
 app.mount('#app')
-
-// createApp(App).mount('#app')
